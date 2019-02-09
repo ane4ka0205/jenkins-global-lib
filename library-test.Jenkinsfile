@@ -6,7 +6,7 @@ def json = new com.lib.jsonviewer()
 node {
 
   stage('poll the data') {
-    git credentialsId: 'git_account', url: 'https://github.com/fsadykov/jenkins-library-test.git'
+    git credentialsId: 'git_account', url: 'https://github.com/ane4ka0205/jenkins-library-test.git'
   }
 
   stage('hello world') {
