@@ -1,7 +1,7 @@
 @Library('CommonLib@master') _
-def job = new com.lib.helloworld()
+def job = new com.myscript()
 
-def json = new com.lib.jsonviewer()
+def json = new com.myscript()
 
 node {
 
