@@ -1,7 +1,4 @@
 @Library('CommonLib@master') _
-// def job = new com.myscript()
-
-// def json = new com.myscript()
 
 node {
 
