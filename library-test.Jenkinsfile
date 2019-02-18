@@ -1,9 +1,9 @@
 @Library('CommonLib@master') _
 
-node {
+node {https://github.com/ane4ka0205/jenkins-global-lib.git
 
   stage('poll the data') {
-    git credentialsId: 'git_account', url: 'https://github.com/ane4ka0205/jenkins-global-lib.git'
+    git credentialsId: 'git_account', url: 'https://github.com/ane4ka0205/jenkins-library.git'
   }
 
   stage('hello world') {
